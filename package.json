@@ -1,0 +1,28 @@
+{
+  "name": "session",
+  "version": "0.0.1",
+  "description": "A mysql extension for db checks based on Java Criteria",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "mysql": "~2.0.0-alpha9"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "sinon": "~1.6.0",
+    "blanket": "~1.1.5",
+    "should": "~1.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "blanket": {
+      "pattern": "src"
+    }
+  },
+  "repository": "",
+  "author": "Carlos Avila",
+  "license": "BSD"
+}
