@@ -2,7 +2,7 @@ var should = require('should')
   , sinon = require('sinon')
   , Criteria = require('./../src/index')
   , mysql = require('mysql')
-  , mysqlConfig = require('./dbconfig.js');
+  , mysqlConfig = require('../db/config.js');
 
 var connection = mysql.createConnection(mysqlConfig);
 

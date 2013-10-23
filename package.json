@@ -16,13 +16,16 @@
     "blanket": "~1.1.5",
     "should": "~1.3.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "blanket": {
-      "pattern": "src"
-    }
-  },
   "repository": "",
   "author": "Carlos Avila",
-  "license": "BSD"
+  "license": "BSD",
+  "scripts": {
+    "blanket": {
+      "pattern": "src"
+    },
+    "tdd": "mocha -u tdd -R spec ./test/test.runner.js",
+    "tdd-cover": "mocha ./test/test.runner.js -u tdd -R html-cov > ./test/coverage.html",
+    "bdd": "mocha -u bdd -R spec ./spec/test.runner.js",
+    "bdd-cover": "mocha ./spec/test.runner.js -u bdd -R html-cov > ./spec/coverage.html" 
+  }
 }

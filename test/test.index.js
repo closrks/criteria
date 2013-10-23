@@ -28,7 +28,8 @@ suite('Criteria', function () {
     });
 
     test('expect Criteria with mysqldb argument to not throw exception', function () {
-      expect(Criteria).withArgs(stubMysqldb).to.not.throwException();
+      var mysqldb = stubMysqldb(null, null);
+      expect(Criteria).withArgs(mysqldb).to.not.throwException();
     });
 
   })

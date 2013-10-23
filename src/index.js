@@ -15,7 +15,7 @@ var Criteria = function (mysqldb) {
       throw new Error();
     } else if (!_.isString(association)) {
       throw new Error();
-    }
+    } 
 
     _association = association;
 
