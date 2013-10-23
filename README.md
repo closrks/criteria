@@ -8,11 +8,11 @@ criteria
 4. 'touch db/config.js sql settings'
 
 ## Test
-npm run tdd
-npm run bdd
+- npm run tdd
+- npm run bdd
 
 ## Coverage
-npm run tdd-cover
+- npm run tdd-cover
 /test/coverage.html
-npm run bdd-cover
+- npm run bdd-cover
 /spec/coverage.html
